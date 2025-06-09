@@ -6,6 +6,7 @@ import About from '../pages/about';
 import Contact from '../pages/contactus';
 import Gallery from '../pages/gallery';
 import UserReport from '../layout/user.report';
+import ManageContacts from '../layout/managecontacts';
 
 const RoutingConfig = () => {
   return (
@@ -19,6 +20,8 @@ const RoutingConfig = () => {
       <Route path="/user" element={<UserLayout />}>
         <Route path="profile" element={<UserReport/>} />
         <Route path="dashboard" element={<UserDashboard />} />
+        <Route path="contact" element={<ManageContacts/>}/>
+
       </Route>
     </Routes>
   );

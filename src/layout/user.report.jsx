@@ -78,7 +78,7 @@ const UserReport = () => {
   return (
     <>
       <TableToolbar />
-      <TableComponent data={tableData} />
+      <TableComponent  data={tableData} />
     </>
   );
 };
